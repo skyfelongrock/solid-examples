@@ -13,9 +13,13 @@ public class Notification {
 
     public Notification(List<IMessage> messages) {
 
+        this.messages = messages;
     }
 
     public void sender() {
 
+        for (IMessage message : messages) {
+            message.sendMessage();
+        }
     }
 }

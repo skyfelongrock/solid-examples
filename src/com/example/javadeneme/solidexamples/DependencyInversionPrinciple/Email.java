@@ -8,6 +8,7 @@ public class Email implements IMessage{
     @Override
     public void sendMessage() {
 
+        sendEmail();
     }
     private void sendEmail() {
 

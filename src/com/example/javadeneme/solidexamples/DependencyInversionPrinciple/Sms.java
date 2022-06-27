@@ -8,6 +8,7 @@ public class Sms implements IMessage{
     @Override
     public void sendMessage() {
 
+        sendSms();
     }
     private void sendSms() {
 

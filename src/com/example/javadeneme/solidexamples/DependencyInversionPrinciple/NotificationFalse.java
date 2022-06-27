@@ -12,5 +12,7 @@ public class NotificationFalse {
 
     public void sender() {
 
+        emailFalse.sendEmail();
+        smsFalse.sendSms();
     }
 }
